@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+}
+/* VERSION MOBILE */
+.gridStyle{
+    display: grid;
+    grid-template-areas:
+    'nav'
+    'header'
+    'section';
+}
+nav{
+    grid-area: 'nav';
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding:1em 2em 1em 2em;
+    background-color: #a47472;
+    color: #fff;
+}
+h3{
+    cursor: pointer;
+}
+.hamburger{
+    display: flex;
+        gap: 20px;
+        margin-left: 2em;
+        margin-top: 0.4em;
+        cursor: pointer;
+        display: none;
+} 
+
+/* prueba */
+.navbar {
+    background-color: #a47472;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #a47472;
+    width: 100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Fin prueba */
+
+header{
+    grid-area: 'header';
+    background-image: url('../imgs/img-main.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    text-align: center;
+}
+h1{
+    font-size: 4em;
+}
+section{
+    grid-area: 'section';
+    display: grid;
+    justify-items: center;
+    gap: 50px;
+}
+h2{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+.ventasStyle, .alquilerStyle{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.card{
+    width: 100%;
+    max-width: 20em;
+    border: 0.1em solid lightgray;
+    margin: 1em;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    border-radius:10px ;
+    height: 40%;
+}
+.card p, h3 {
+    padding: 5px;
+}
+.conditionalStyle{
+    display: flex;
+}
+.smoking, .pets{
+    color:lightgreen;
+}
+.noSmoking, .noPets{
+    color:lightcoral;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    font-weight:400;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: #3a3a3a;
+}
+.btn:hover{
+    background-color: #3a3a3a;
+}
+footer{
+    background-color: #a47472;
+    margin-top: 1em;
+}
+footer p{
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+
+/* VERSION TABLET */
+@media(min-width:576px){
+    nav{
+        justify-content: flex-start;
+    }
+    .hamburger{
+        display: flex;
+        gap: 20px;
+        margin-left: 2em;
+        margin-top: 0.4em;
+        cursor: pointer;
+    }
+    .navbar{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .ventasStyle, .alquilerStyle{
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        max-width: 18em;
+    }
+}
+
+/* VERSIÓN WEB */
+@media(min-width:992px){
+    .ventasStyle, .alquilerStyle{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card{
+        max-width: 20em;
+    }
+}
