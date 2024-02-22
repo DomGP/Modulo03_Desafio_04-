@@ -2,7 +2,7 @@
 const propiedadesEnVenta = [
     {
         nombre: 'Apartamento de lujo en zona exclusiva',
-        src:"https://fotos.perfil.com/2018/09/21/trim/950/534/nueva-york-09212018-366965.jpg",
+        src:"./assets/imgs/venta_01.jpg",
         descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona residencial',
         ubicacion: '123 Luxury Lane, Prestige Suburb, CA 45678',
         habitaciones: 4,
@@ -13,7 +13,7 @@ const propiedadesEnVenta = [
     },
     {
         nombre: 'Apartamento acogedor en la montaña',
-        src: 'https://cdn.bioguia.com/embed/3d0fb0142790e6b90664042cbafcb1581427139/furgoneta.jpg',
+        src: "./assets/imgs/venta_02.jpg",
         descripcion: 'Este apartamento acogedor está situado en lo alto de una montaña con impresionantes vistas',
         ubicacion: '789 Mountain Road, Summit Peaks, CA 23456',
         habitaciones: 2,
@@ -24,7 +24,7 @@ const propiedadesEnVenta = [
     },
     {
         nombre: 'Penthouse de lujo con terraza panorámica',
-        src: 'https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg',
+        src: "./assets/imgs/venta_03.jpg",
         descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares',
         ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
         habitaciones: 3,
@@ -35,7 +35,7 @@ const propiedadesEnVenta = [
     },
     {
         nombre: 'Apartamento de lujo en zona exclusiva',
-        src:"https://fotos.perfil.com/2018/09/21/trim/950/534/nueva-york-09212018-366965.jpg",
+        src:"./assets/imgs/venta_01.jpg",
         descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona residencial',
         ubicacion: '123 Luxury Lane, Prestige Suburb, CA 45678',
         habitaciones: 4,
@@ -46,7 +46,7 @@ const propiedadesEnVenta = [
     },
     {
         nombre: 'Apartamento acogedor en la montaña',
-        src: 'https://cdn.bioguia.com/embed/3d0fb0142790e6b90664042cbafcb1581427139/furgoneta.jpg',
+        src: "./assets/imgs/venta_02.jpg",
         descripcion: 'Este apartamento acogedor está situado en lo alto de una montaña con impresionantes vistas',
         ubicacion: '789 Mountain Road, Summit Peaks, CA 23456',
         habitaciones: 2,
@@ -57,20 +57,20 @@ const propiedadesEnVenta = [
     },
     {
         nombre: 'Penthouse de lujo con terraza panorámica',
-        src: 'https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg',
+        src: "./assets/imgs/venta_03.jpg",
         descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares',
         ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
         habitaciones: 3,
         baños:3,
         costo: '4.500',
-        smoke: true,
-        pets: false,
+        smoke: false,
+        pets: true,
     },
 ]
 const propiedadesEnAlquiler = [
     {
         nombre: 'Apartamento en el centro de la ciudad',
-        src: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+        src: "./assets/imgs/arriendo_01.jpg",
         descripcion: 'Este apartamento de 2 habitaciones está ubicado en el corazón de la ciudad, cerca de todo.',
         ubicacion: '123 Main Street, Anytown, CA 91234.',
         habitaciones: 2,
@@ -81,7 +81,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Apartamento luminoso con vista al mar',
-        src: 'https://images.unsplash.com/photo-1669071192880-0a94316e6e09',
+        src: "./assets/imgs/arriendo_02.jpg",
         descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar.',
         ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789.',
         habitaciones: 3,
@@ -92,7 +92,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Condominio moderno en zona residencial',
-        src: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a',
+        src: "./assets/imgs/arriendo_03.jpg",
         descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial.',
         ubicacion: '123 Main Street, Anytown, CA 91234.',
         habitaciones: 2,
@@ -103,7 +103,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Apartamento en el centro de la ciudad',
-        src: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+        src: "./assets/imgs/arriendo_01.jpg",
         descripcion: 'Este apartamento de 2 habitaciones está ubicado en el corazón de la ciudad, cerca de todo.',
         ubicacion: '123 Main Street, Anytown, CA 91234.',
         habitaciones: 2,
@@ -114,7 +114,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Apartamento luminoso con vista al mar',
-        src: 'https://images.unsplash.com/photo-1669071192880-0a94316e6e09',
+        src: "./assets/imgs/arriendo_02.jpg",
         descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar.',
         ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789.',
         habitaciones: 3,
@@ -125,7 +125,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Condominio moderno en zona residencial',
-        src: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a',
+        src:  "./assets/imgs/arriendo_03.jpg",
         descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial.',
         ubicacion: '123 Main Street, Anytown, CA 91234.',
         habitaciones: 2,

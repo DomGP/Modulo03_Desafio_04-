@@ -1,7 +1,7 @@
 const propiedadesEnAlquiler = [
     {
         nombre: 'Apartamento en el centro de la ciudad',
-        src: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+        src: "./assets/imgs/arriendo_01.jpg",
         descripcion: 'Este apartamento de 2 habitaciones está ubicado en el corazón de la ciudad, cerca de todo.',
         ubicacion: '123 Main Street, Anytown, CA 91234.',
         habitaciones: 2,
@@ -12,7 +12,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Apartamento luminoso con vista al mar',
-        src: 'https://images.unsplash.com/photo-1669071192880-0a94316e6e09',
+        src: "./assets/imgs/arriendo_02.jpg",
         descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar.',
         ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789.',
         habitaciones: 3,
@@ -23,7 +23,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Condominio moderno en zona residencial',
-        src: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a',
+        src: "./assets/imgs/arriendo_03.jpg",
         descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial.',
         ubicacion: '123 Main Street, Anytown, CA 91234.',
         habitaciones: 2,
@@ -34,7 +34,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Apartamento en el centro de la ciudad',
-        src: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+        src: "./assets/imgs/arriendo_01.jpg",
         descripcion: 'Este apartamento de 2 habitaciones está ubicado en el corazón de la ciudad, cerca de todo.',
         ubicacion: '123 Main Street, Anytown, CA 91234.',
         habitaciones: 2,
@@ -45,7 +45,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Apartamento luminoso con vista al mar',
-        src: 'https://images.unsplash.com/photo-1669071192880-0a94316e6e09',
+        src: "./assets/imgs/arriendo_02.jpg",
         descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar.',
         ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789.',
         habitaciones: 3,
@@ -56,7 +56,7 @@ const propiedadesEnAlquiler = [
     },
     {
         nombre: 'Condominio moderno en zona residencial',
-        src: 'https://images.unsplash.com/photo-1567496898669-ee935f5f647a',
+        src:  "./assets/imgs/arriendo_03.jpg",
         descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial.',
         ubicacion: '123 Main Street, Anytown, CA 91234.',
         habitaciones: 2,
